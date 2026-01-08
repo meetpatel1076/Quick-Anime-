@@ -25,26 +25,29 @@
         height: 10vh;
 
     }
+
     .nav img {
         height: 60px;
     }
-    .navbar{
+
+    .navbar {
 
         display: flex;
         gap: 20px;
     }
-    .navbar p{
+
+    .navbar p {
         text-transform: capitalize;
         font-size: 20px;
         font-weight: bolder;
         color: rgba(255, 255, 255, 0.748);
     }
 
-    .title p{
+    .title p {
         text-align: center;
         font-size: 60px;
         font-family: Arial, Helvetica, sans-serif;
-       
+
         color: white;
         height: 40vh;
         display: flex;
@@ -56,11 +59,11 @@
 
     }
 
-    .title0 p{
+    .title0 p {
         text-align: center;
         font-size: 60px;
         font-family: Arial, Helvetica, sans-serif;
-       
+
         color: white;
         height: 40vh;
         display: flex;
@@ -72,15 +75,19 @@
 
     }
 
-
+    .anime-cards-container {
+        display: flex;
+        justify-content: center;
+    }
 
     .parent {
         display: flex;
         flex-direction: row;
         margin: 1.5vw;
-
-
-
+        gap: 20px;
+        justify-items: center;
+        align-items: center;
+        flex-wrap: wrap;
     }
 
     .s {
@@ -93,23 +100,22 @@
         border: 2px solid rgb(127, 127, 127);
 
 
-
     }
 
     .s img {
-        
-        height: 80vh;
-        width: 19vw;
+
+        height: 50vh;
+        width: 16vw;
         border-radius: 15px;
-        
+
         margin-bottom: 2vh;
 
     }
 
     .s1 {
         background-color: rgb(9, 28, 42);
-        height: 90vh;
-        width: 19vw;
+        height: 70vh;
+        width: 16vw;
 
 
     }
@@ -126,36 +132,32 @@
 
     .s2 {
         background-color: rgb(124, 52, 7);
-        height: 90vh;
-        width: 19vw;
+        height: 70vh;
+        width: 16vw;
     }
 
     .s3 {
         background-color: rgb(38, 45, 125);
-        height: 90vh;
-        width: 19vw;
+        height: 70vh;
+        width: 16vw;
 
     }
 
     .s4 {
         background-color: rgb(177, 177, 177);
-        height: 90vh;
-        width: 19vw;
+        height: 70vh;
+        width: 16vw;
     }
 
     .s5 {
         background-color: rgb(53, 165, 197);
-        height: 90vh;
-        width: 19vw;
+        height: 70vh;
+        width: 16vw;
     }
 
-    .s5 img {
-        
-        height: 80vh;
-        width: 19vw;
-    }
 
-   
+
+
 
     .title2 {
         font-size: 30px;
@@ -164,10 +166,11 @@
         color: rgb(237, 206, 206);
         text-align: center;
         margin-bottom: 120px;
-        
+
 
     }
-    .title2 p{
+
+    .title2 p {
         display: none;
 
     }
@@ -181,7 +184,7 @@
 
     .card {
         width: 24vw;
-        
+
         background-color: rgb(255, 255, 255);
         text-align: center;
         border-radius: 25px;
@@ -197,11 +200,12 @@
         width: 7vw;
 
     }
+
     .p4 img {
         width: 6vw;
 
     }
-    
+
 
     .card {
         transition: transform 0.3s ease-in-out;
@@ -244,6 +248,7 @@
         background-color: gray;
 
     }
+
     .red a {
 
         background-color: rgba(254, 22, 22, 0.808);
@@ -254,11 +259,11 @@
         margin-top: 8vh;
     }
 
-    .title3{
+    .title3 {
         font-size: 18px;
         width: 80%;
         margin: auto;
-        
+
         font-family: Arial, Helvetica, sans-serif;
         color: rgba(255, 255, 255, 0.908);
         text-align: center;
@@ -288,7 +293,7 @@
 
     .nav {
         display: flex;
-        
+
 
         align-items: center;
 
@@ -302,15 +307,18 @@
         height: 10vh;
 
     }
+
     .nav img {
         height: 60px;
     }
-    .navbar{
+
+    .navbar {
 
         display: flex;
         gap: 16px;
     }
-    .navbar p{
+
+    .navbar p {
         text-transform: capitalize;
         font-size: 20px;
         font-weight: bolder;
@@ -335,12 +343,12 @@
     }
 
     .title p {
-        
-        
-        
+
+
+
         font-size: 30px;
         font-family: Arial, Helvetica, sans-serif;
-        
+
         text-align: center;
         color: white;
         height: 40vh;
@@ -355,18 +363,18 @@
     }
 
     .title0 p {
-        
-        
-        
+
+
+
         font-size: 30px;
         font-family: Arial, Helvetica, sans-serif;
-        
+
         text-align: center;
         color: white;
         margin-top: 110px;
-        
-        
-        
+
+
+
         width: 80%;
         margin-left: 38px;
 
@@ -379,21 +387,20 @@
         justify-content: center;
         align-items: center;
         margin-bottom: -90px;
-
-
+        flex-wrap: wrap;
+        overflow-x: scroll;
     }
 
-   
+
 
     .me1 {
-        display: none;
         margin-top: 20px;
         text-align: center;
         font-size: 25px;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bolder;
         border-radius: 15px;
-        
+
         height: 40vh;
         width: 33.33vw;
         display: flex;
@@ -401,17 +408,17 @@
         justify-content: center;
         align-items: center;
         gap: 20px;
-        
+
     }
 
     .me1 img {
         height: 39vh;
-        width: 33.33vw;
+        width: 70vw;
         border-radius: 15px;
         margin-bottom: 10px;
-      
+
     }
-    
+
 
 
     .end {
@@ -428,7 +435,7 @@
         overflow-x: auto;
         scroll-snap-type: x mandatory;
         scroll-padding-left: 0px;
-       
+
 
     }
 
@@ -440,17 +447,17 @@
         overflow: hidden;
         min-width: 92vw;
         scroll-snap-align: center;
-        
-        text-align: center; 
-    
+
+        text-align: center;
+
         background: white;
         padding: 6px;
         border-radius: 27px;
-        
-         
+
+
     }
-    
-   
+
+
 
 
     .p2 img {
@@ -461,16 +468,18 @@
         width: 58vw;
 
     }
+
     .p3 img {
         width: 56vw;
 
     }
+
     .p4 img {
         width: 35vw;
 
     }
 
-   .crnl {
+    .crnl {
         font-size: 15px;
         font-family: Arial, Helvetica, sans-serif;
         align-items: center;
@@ -481,12 +490,12 @@
         display: flex;
         flex-direction: column;
         gap: 4vh;
-        
+
     }
 
-  .link a {
+    .link a {
         text-decoration: none;
-        
+
         color: black;
         font-size: 15px;
         font-family: Arial, Helvetica, sans-serif;
@@ -496,12 +505,13 @@
         padding: 10px 15px;
         background-color: rgba(213, 111, 3, 0.821);
     }
+
     .link {
         margin-top: 6vh;
     }
 
 
-   .lam a {
+    .lam a {
 
         background-color: gray;
 
@@ -512,9 +522,10 @@
         background-color: rgba(254, 22, 22, 0.808);
 
     }
-    .barcode img{
+
+    .barcode img {
         width: 30vw;
-     
+
     }
 
     .title2 {
@@ -528,11 +539,11 @@
 
     }
 
-    .title3{
+    .title3 {
         font-size: 18px;
         width: 80%;
         margin: auto;
-        
+
         font-family: Arial, Helvetica, sans-serif;
         color: rgba(255, 255, 255, 0.908);
         text-align: center;
@@ -541,15 +552,15 @@
 
     }
 
-    .title2 p{
+    .title2 p {
         font-size: 13px;
         font-weight: normal;
         margin-top: 10px;
         color: gray;
 
     }
- 
-    .explain a{
+
+    .explain a {
         text-decoration: none;
         font-size: 15px;
         font-family: Arial, Helvetica, sans-serif;
@@ -565,7 +576,8 @@
         font-family: Arial, Helvetica, sans-serif;
         color: rgb(0, 0, 0);
         margin-top: 30px;
-        background-color: grey;}
+        background-color: grey;
+    }
 
 
 
