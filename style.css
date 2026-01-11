@@ -1,13 +1,10 @@
 @media screen and (min-width: 1356px) {
 
-
     * {
         margin: 0;
         padding: 0;
 
     }
-
-
 
     .nav {
         display: flex;
@@ -155,10 +152,6 @@
         width: 16vw;
     }
 
-
-
-
-
     .title2 {
         font-size: 30px;
         font-weight: bolder;
@@ -245,7 +238,7 @@
 
     .lam a {
 
-        background-color: gray;
+        background-color: rgb(211, 80, 231);
 
     }
 
@@ -292,134 +285,37 @@
     }
 
     .nav {
-        display: flex;
-
-
-        align-items: center;
-
-        color: white;
-        text-align: center;
-        font-size: 25px;
-        font-family: Arial, Helvetica, sans-serif;
-        position: absolute;
-        left: 2vw;
-
-        height: 10vh;
-
+        position: relative;
+        left: 3vw;
     }
 
     .nav img {
-        height: 60px;
+        height: 45px;
     }
 
-    .navbar {
+    /* for right now we are hiding this section on small screens */
 
-        display: flex;
-        gap: 16px;
-    }
-
-    .navbar p {
-        text-transform: capitalize;
-        font-size: 20px;
-        font-weight: bolder;
-        color: rgba(255, 255, 255, 0.748);
-    }
-
-    /* .nav {
-        
-        position: absolute;
-       left: 1vw;
-        
-        top: 2vh;
-        
-
-    }
-    .nav img {
-        height: 40px;
-    } */
-
-    .me2 {
+    .parent {
         display: none;
     }
 
     .title p {
 
-
-
         font-size: 30px;
         font-family: Arial, Helvetica, sans-serif;
 
         text-align: center;
         color: white;
-        height: 40vh;
+
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 90%;
+        width: 70%;
         margin: auto;
 
         font-weight: bolder;
 
     }
-
-    .title0 p {
-
-
-
-        font-size: 30px;
-        font-family: Arial, Helvetica, sans-serif;
-
-        text-align: center;
-        color: white;
-        margin-top: 110px;
-
-
-
-        width: 80%;
-        margin-left: 38px;
-
-        font-weight: bolder;
-
-    }
-
-    .parent {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: -90px;
-        flex-wrap: wrap;
-        overflow-x: scroll;
-    }
-
-
-
-    .me1 {
-        margin-top: 20px;
-        text-align: center;
-        font-size: 25px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bolder;
-        border-radius: 15px;
-
-        height: 40vh;
-        width: 33.33vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-
-    }
-
-    .me1 img {
-        height: 39vh;
-        width: 70vw;
-        border-radius: 15px;
-        margin-bottom: 10px;
-
-    }
-
-
 
     .end {
         margin-top: -100px;
@@ -456,9 +352,6 @@
 
 
     }
-
-
-
 
     .p2 img {
         width: 43vw;
@@ -513,7 +406,7 @@
 
     .lam a {
 
-        background-color: gray;
+      background-color: rgb(211, 80, 231);
 
     }
 
